@@ -3,3 +3,5 @@ C:\Users\axel\Google Drive\Skola\OOAD\Workshop 3\asdasdasd\BlackJack\bin\Debug\B
 C:\Users\axel\Google Drive\Skola\OOAD\Workshop 3\asdasdasd\BlackJack\obj\Debug\BlackJack.exe
 C:\Users\axel\Google Drive\Skola\OOAD\Workshop 3\asdasdasd\BlackJack\obj\Debug\BlackJack.pdb
 C:\Users\axel\Google Drive\Skola\OOAD\Workshop 3\asdasdasd\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
+C:\Users\axel\Documents\GitHub\1DV407\Workshop 3\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\axel\Documents\GitHub\1DV407\Workshop 3\BlackJack\obj\Debug\BlackJack.pdb
