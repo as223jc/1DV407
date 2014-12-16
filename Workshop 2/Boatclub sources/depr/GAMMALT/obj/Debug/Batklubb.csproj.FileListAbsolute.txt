@@ -6,6 +6,3 @@ D:\Boatclub\obj\Debug\Klubb.Properties.Resources.resources
 D:\Boatclub\obj\Debug\Batklubb.csproj.GenerateResource.Cache
 D:\Boatclub\obj\Debug\Batklubb.exe
 D:\Boatclub\obj\Debug\Batklubb.pdb
-C:\Users\axel\Documents\GitHub\1DV407\Workshop 2\Boatclub sources\bin\Debug\Batklubb.exe.config
-C:\Users\axel\Documents\GitHub\1DV407\Workshop 2\Boatclub sources\obj\Debug\Batklubb.exe
-C:\Users\axel\Documents\GitHub\1DV407\Workshop 2\Boatclub sources\obj\Debug\Batklubb.pdb

@@ -9,41 +9,54 @@ namespace Klubb
     public class Medlem
     {
         private string namn;
+        private int medlemsnummer;
+        private long personnummer;
+        private List<Bat> _batar = new List<Bat>();
+
+        public Medlem(string n, long pn, int mn) {
+            this.namn = n;
+            this.personnummer = pn;
+            this.medlemsnummer = mn;           
+        }
+
+        public int AntalBatar {
+             get { return _batar.Count; } 
+        }
+                
+        public void Add(Bat bat) {
+            _batar.Add(bat);
+        }
+
+        public void Remove(Bat bat) {
+            _batar.Remove(bat);
+        }
+
+        public List<Bat> Batar {
+            get { return _batar; }
+            set { _batar = value; }
+        }
 
         public string Namn {
             get { return namn; }
             set { namn = value; }
         }
-        private string personnummer;
 
-        public string Personnummer {
+        public long Personnummer {
             get { return personnummer; }
             set { personnummer = value; }
         }
-        private int medlemsnummer;
 
         public int Medlemsnummer {
             get { return medlemsnummer; }
             set { medlemsnummer = value; }
         }
-
-        private int antalBatar;
-
-        public int AntalBatar {
-            get { return antalBatar; }
-            set { antalBatar = value; }
-        }
-
-        public Medlem(string n, string pn, int mn, int ab = 0) {
-            this.namn = n;
-            this.personnummer = pn;
-            this.medlemsnummer = mn;
-            this.antalBatar = ab;
-        }  
+                
         public override string ToString()
         {
-            return ("Medlemsnummer: " + medlemsnummer + " Namn: " + namn + " Antal båtar: " + antalBatar + " Personnummer: " + personnummer + ".");
+            return ("Medlemsnummer: " + medlemsnummer + " Namn: " + namn + " Antal båtar: " + AntalBatar + " Personnummer: " + personnummer + ".");
         }
+        
+
     }
     
 }

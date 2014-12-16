@@ -8,15 +8,24 @@ namespace Klubb
 {
     class Program
     {
+        static Klubb klubb = new Klubb();
+        static KlubbController piratKlubben = new KlubbController(klubb);
         static void Main(string[] args)
         {
             //Genom en instans av kontrollerobjektet kör vi igång programmer och fångar även som programmet ev. skulle kasta
-            KlubbController piratKlubben = new KlubbController();
-            try{ while(piratKlubben.RunProgram()); }
-            catch (Exception ex) {
+            try
+            {
+                piratKlubben.RunProgram();
+
+                Console.WriteLine("Closing program.. Press any key to exit");
+                Console.ReadKey();
+            }
+            catch (Exception ex)
+            {
                 Console.WriteLine(ex);
                 Console.ReadKey();
             }
         }
+
     }
 }

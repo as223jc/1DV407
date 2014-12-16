@@ -58,9 +58,8 @@
   <ItemGroup>
     <Compile Include="Controller\KlubbController.cs" />
     <Compile Include="Model\Bat.cs" />
-    <Compile Include="Model\BoatType.cs" />
     <Compile Include="Model\Medlem.cs" />
-    <Compile Include="depr\Klubb.cs" />
+    <Compile Include="Model\Klubb.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -74,7 +73,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

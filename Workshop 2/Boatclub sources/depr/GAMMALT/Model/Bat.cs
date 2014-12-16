@@ -9,26 +9,33 @@ namespace Klubb
     public class Bat
     {
         private string typ;
-        private string langd;
-
-        public Bat(string t, string l) {
-            this.typ = t;
-            this.langd = l;
-        }   
         
         public string Typ {
             get { return typ; }
             set { typ = value; }
         }
+        private string langd;
 
         public string Langd {
             get { return langd; }
             set { langd = value; }
         }
-                                      
+        private int medlemsnummer;
+
+        public int Medlemsnummer {
+            get { return medlemsnummer; }
+            set { Medlemsnummer = value; }
+        }
+
+        public Bat(string t, string l, int m) {
+            this.typ = t;
+            this.langd = l;
+            this.medlemsnummer = m;
+        }   
+               
         public override string ToString()
         {
-            return ("Typ av båt: " + (BoatType)int.Parse(Typ) + ". Längd: " + Langd + "m");
+            return ("Typ av båt: " + typ + ". Längd: " + Langd + "m Medlemsnummer: " + Medlemsnummer);
         }
     }
     

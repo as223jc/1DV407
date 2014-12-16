@@ -1,0 +1,7 @@
+[Medlemmar]
+moses larsson;4912245554;2343
+peter sten;4912245554;6435
+ulla överste;4912245554;75
+[Batar]
+kanot;3.2;2343
+övrigt;2.5;75

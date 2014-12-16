@@ -1,0 +1,8 @@
+D:\Boatclub\bin\Release\Batklubb.exe.config
+D:\Boatclub\bin\Release\Batklubb.exe
+D:\Boatclub\bin\Release\Batklubb.pdb
+D:\Boatclub\obj\Release\Batklubb.csprojResolveAssemblyReference.cache
+D:\Boatclub\obj\Release\Klubb.Properties.Resources.resources
+D:\Boatclub\obj\Release\Batklubb.csproj.GenerateResource.Cache
+D:\Boatclub\obj\Release\Batklubb.exe
+D:\Boatclub\obj\Release\Batklubb.pdb
